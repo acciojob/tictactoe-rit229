@@ -155,7 +155,10 @@
             document.getElementById('player-1').disabled = false;
             document.getElementById('player-2').disabled = false;
             document.getElementById('submit').disabled = false; // Enable submit button again
+			            document.getElementById('reset').style.display = 'none'; // Hide reset button
+
         }
+		document.getElementById('reset').addEventListener('click', resetGame); // Reset button functionality
     </script>
 </body>
 </html>
